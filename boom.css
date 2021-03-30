@@ -1,0 +1,68 @@
+body{
+    
+     background: url("../images/harvest.jpg");
+    no-repeat centre centre fixed;
+    background-size: cover;
+    opacity: 80%
+
+}
+
+.black{
+    background-color:rgb(60,179,113);
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 25px;
+}
+h1{
+    font-size: 4em;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Secular One', sans-serif;
+}
+p1{
+    font-size: 1.8em;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+.active {
+  background-color: #4CAF50;
+    
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+ .navbar-right {
+    float: right;
+  }
+.fas{
+    float: right;
+    color: white;
+}
